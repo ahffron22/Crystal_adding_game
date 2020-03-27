@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit 4 Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/action.js"></script>
+    <link href="assets/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 id="title">Crystals Collector!</h1>
+
+    <div class="container">
+      <p>You will be given a random number at the start of the game.</p>
+      <hr />
+      <p>
+        There are four crystals below. By clicking on a crystal you will add a
+        specific amount of points to your total.
+      </p>
+      <hr />
+      <p>
+        You win the game by matching your total score to random number. You lose
+        the game if your total score goes above the random number.
+      </p>
+      <hr />
+      <p>The value of each crystal is hidden from you until you click on it.</p>
+      <hr />
+      <p>
+        Each time when the game starts, the game will change the values of each
+        crystal.
+      </p>
+    </div>
+    <div class="container2 clearfix">
+        <div class="random clearfix">39</div>
+        <div class="scoreboard">
+        <h3>Wins: <span class="wins">0</span></h3>
+        <h3>losses: <span class="loses">0</span></h3>
+        </div>
+        <h2 class="yourScore">Your total score is: <span class="userScore">0</span></h2>
+    </div>
+    <br />
+
+    <div class="clearfix"></div>
+      <img
+        class="crystal1 crys"
+        src="https://marketing.gaia.com/wp-content/uploads/ore-amethyst-on-white-background-picture-id918955036-768x432.jpg"
+      />
+
+      <img
+        class="crystal2 crys"
+        src="https://miro.medium.com/max/2520/0*AmwIyi21fDd9Guwz.jpg"
+      />
+
+      <img
+        class="crystal3 crys"
+        src="https://ae01.alicdn.com/kf/HTB1uK3tLIfpK1RjSZFOq6y6nFXaA/1PC-Natural-Fluorite-Hexagonal-Column-Crystal-Point-Healing-Wand-Mineral-Crystal-Home-Decoration-Stone-Study-Room.jpg"
+      />
+
+      <img
+        class="crystal4 crys"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTyixSLXGbVpripRGzttqk2gA_4-dC9pRc73Bs6iFErHkoQH0M2"
+      />
+    </div>
+    <aside class="verticalLine clearfix"></aside>
+    <aside class="verticalLine2 clearfix"></aside>
+    <footer class="page-footer font-small blue">
+        <div id="mainFooterText" class="footer-copyright text-center py-3">
+          © 2020 Copyright: Alex Heffron
+        </div>
+      </footer>
+  </body>
+</html>
